@@ -3,6 +3,8 @@ import axios from 'axios'
 import * as dotenv from 'dotenv'
 
 dotenv.config()
+
+const app = express()
 const router = express.Router()
 
 router.route('/').get((req, res) => {
